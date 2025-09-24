@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sokoban Mini</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Sokoban Mini</h1>
+    <p class="description">Push the box onto the goal. Use Arrow keys or WASD to move. Press R to reset.</p>
+    <div id="game" aria-label="Sokoban board" role="grid"></div>
+    <div class="controls">
+      <button id="resetBtn" type="button">Reset</button>
+      <span id="status" aria-live="polite"></span>
+    </div>
+  </main>
+  <footer>
+    <p>Made with vanilla HTML/CSS/JS.</p>
+  </footer>
+  <script src="main.js" defer></script>
+</body>
+</html>
